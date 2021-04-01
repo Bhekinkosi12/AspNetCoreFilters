@@ -50,6 +50,7 @@ namespace AspNetCoreFilters
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseMvc();
 
             app.UseAuthorization();
 
